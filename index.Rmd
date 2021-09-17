@@ -1,15 +1,50 @@
 ---
-title: "R Notebook"
+title: "Voyant Project 1"
+author: "Anjali Sajith , Eryn Wali , Mantegh Anand"
 output:
   html_document:
     df_print: paged
 ---
 
-# Introduction
+# Some Basic Info
 
-Hello World!
+DH Project 1:
+
+Team Members: Eryn Wali, Anjali Sajith, Mantegh Anand 
+Group Leader: Mantegh Anand
+
 
 ![Ashoka University logo](https://www.ashoka.edu.in/admin_assets/global/images/logo/logo-ashoka.png)
+
+# Hypothesis:
+There exists a class difference in science fiction books wherein there is a higher frequency of usage of words relating to the upper-class as compared to the lower-class.
+
+# Introduction
+
+The three of us are a combination of Computer Science and Economics majors. Naturally, we have no inclination towards English Literature. After discussing the novels we read we realized that, like the nerds we are, we only read science fiction and mystery novels. Therefore, it was quite easy for us to choose Sir Arthur Conan Doyle as our first author - we wanted to analyse the Sherlock Holmes series and compare it to other mystery/detective novels from the same time period and context. However, Gutenberg didn’t have a wide variety of books by other mystery/detective authors. Thus, we did what we were taught to: improvise, adapt and overcome. We chose to analyse Doyle’s sci-fi corpus with H. G. Wells’ corpus since they had the same genre, similar time, and of course, they were both British. We didn’t know where to go from there, so we did a little bit of research and looked at themes both authors covered in their books. An interesting one that we found was H. G. Well’s fascination with class. Our assumption was that since most of his books were based on a utopian society, we would mainly encounter the upper class - aristocratic, wealthy people living in mansions. So, we decided to compare the amount of times we came across upper class terms in both corpuses to check whether it was a recurring theme within science fiction novels. In order to further strengthen our analysis, we also decided to compare our results with Thomas Hardy’s and George Eliot’s corpuses (English authors from the same time period and non sci-fi writers) on Professor’s recommendation.
+
+# Actual Stuff Begins Here:
+
+To do so, we split our corpuses into 2 sections - one with science fiction authors and one with non science-fiction authors. It includes a combination of 33 books by H. G. Wells and Sir Arthur Conan Doyle with a word count of 2,538,058, and a combination of 17 books by George Eliot and Thomas Hardy with a word count of 2,676,423. While we found a lot of similarities between the texts in terms of the most frequent words, they didn’t quite relate to our hypothesis. For example, we noticed that both corpuses had words such as “man”, “said”, “men”, and “little” as their most used words. But, what were we to do of this data? We also tried looking at the sentence length and vocabulary density in both corpuses. Instead of thinking about the author itself, we tried to think about class differences in the readers. A corpus with low vocabulary density and lesser average words per sentence would result in a book that is more accessible to the lower class (with the assumption that they are not very well-read). In the science-fiction corpus, we found that the highest vocabulary density was 0.160 and the lowest was 0.053. For the non science-fiction corpus, we found that the highest vocabulary density was 0.192 and the lowest was 0.049. This points towards a possibility that the non science fiction books were targeted towards a relatively more literate population as compared to the science fiction books. Although, it is important to note that the difference isn’t big enough to make a proper judgment on this subject.
+
+
+# Correlation and Colocates:
+
+Correlation:
+Upon inspection of the correlation data of our science fiction corpus, voyant points out that there simply aren’t any strong correlations within the corpus. Even though voyant shows some pretty strong significance for the relation between some terms, it still does not show any significant correlation. The highest correlation within the corpus values at around 0.248 is not strong enough to draw any inference. The lowest correlation within the corpus values at around -0.037 which yet again is not enough to draw any inference.
+
+Colocates:
+When first presented with the colocation data, voyant throws pairings with the most used word within the corpus, which in this case is “said” . Instead of completely ignoring that and searching for specific terms, we decided to use the huge amount of data available for “said” to our advantage. Here’s our thought process:
+
+Since we are to find out the representation of different social classes within the corpus, we must look at the best way in which a character can be represented - through dialogue. The amount of times a character speaks within a text relates to the amount of influence they have within the text. So, if we just look at the the colocates of the word “said” with a set of different terms relating to different social classes, then we could get a rough idea of the representation of those classes within the text. Here is what we found:
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTphFxM_3PLIe9E-yj6RHzRZHvrDZr7byjVBLYRJSNcMVUsWdZYTJjBXCe5PWwU9D4N7rp9M3T859Sk/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" data-external = '1'></iframe>
+
+The science fiction category is heavily inclined towards the representation of the upper class, as is shown in the first table.
+On the other hand, the non science fiction category has a fairly balanced representation of both the classes as in shown in the second table
+
+
+
 
 <iframe style='width: 1440px; height: 631px;' src='https://voyant-tools.org/tool/Bubblelines/?query=poor*%20%7C%20poverty*%20%7C%20peasant*%20%7C%20servant*%20%7C%20beggar*%20%7C%20filth*&query=rich*%20%7C%20royal*%20%7C%20king*%20%7C%20queen*%20%7C%20lord*%20%7C%20lady*%20%7C%20prince*%20%7C%20sir*%20%7C%20&docId=519264eb1d57a4a2308736d48814e4bd&docId=b9ed78a5505313154b5ae7437cfdbe5e&docId=c5be2cd17549d683f5be20f9f9ba6321&docId=296fbda16c86d576702b61fc28a990cd&docId=30db63c95ff2b54b05ee0f960c142ddb&docId=d613cfef120038814af6cde6cfb9a407&docId=4c693a29b690c474373125706a6a2cf6&docId=73bcfccf9aa227a1ac0fcb23410adad0&docId=a4025ec382fd5b9e9293276f02f71bbf&docId=fdb08eeaa6a4f25ce60770d1e593991e&docId=980ee258d016d28855936e62e18b742b&docId=efb6d43a452b337c56b90451e0fbb476&docId=0a1e14dab83853b957349bb10c407f5c&docId=831461b4245926b29b87e8bbfbf33bd4&docId=1266e204b10d9bf329373e618f4dcfe2&docId=ac19ba985474c51e149e305e1e1c3d05&docId=f1d15164e72571e7b1548296c80ad544&docId=b2bdc4936c775ed70cf3bfcc183856a2&docId=12e9907813dfc350204c416f5e732349&docId=81fce5e32f0a2063b73c6b1cc21a4c31&docId=b1d18ef06877368262cce7bd1a7e8b18&docId=7776dce802730be892ffbb41850d41c8&docId=94546ab0d156e5cee77884aee34e4dc5&docId=78ed3379c3b20d9dcf871ee20ddebfac&docId=bc44fcfc324f5ceb3b0e29a832f89864&docId=79e99bc30a6fee92c8a93390a619520b&docId=2c7da5ee53b5782940e0816ae30738e9&docId=73494c7768bfa95ee170d702a7147458&docId=6fb0c959a72386996e8c3e2ff50f112e&docId=58027111118ee409b822129c4be5161a&docId=0998824f6662560f60d507754994e32d&docId=54af67d2b4ccf9850494d005fa6f4a17&docId=bd62576a7d9754300aa568b61e7f7b36&corpus=3e25d54e66d7d4cbd0e7a03e77113534' data-external = '1'></iframe>
 
