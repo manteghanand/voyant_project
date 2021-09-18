@@ -45,7 +45,7 @@ When first presented with the collocation data, voyant throws pairings with the 
 
 Since we are to find out the representation of different social classes within the corpus, we must look at the best way in which a character can be represented - through dialogue. The amount of times a character speaks within a text relates to the amount of influence they have within the text. So, if we just look at the the colocates of the word “said” with a set of different terms relating to different social classes, then we could get a rough idea of the representation of those classes within the text. Here is what we found:
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTphFxM_3PLIe9E-yj6RHzRZHvrDZr7byjVBLYRJSNcMVUsWdZYTJjBXCe5PWwU9D4N7rp9M3T859Sk/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" data-external = '1'></iframe>
+<iframe style='width: 1440px; height: 631px;' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTphFxM_3PLIe9E-yj6RHzRZHvrDZr7byjVBLYRJSNcMVUsWdZYTJjBXCe5PWwU9D4N7rp9M3T859Sk/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" data-external = '1'></iframe>
 
 The science fiction category is heavily inclined towards the representation of the upper class, as is shown in the first table.
 On the other hand, the non science fiction category has a fairly balanced representation of both the classes as in shown in the second table
@@ -53,7 +53,7 @@ On the other hand, the non science fiction category has a fairly balanced repres
 
 # Bubble Lines
 
-After the never ending process of trying to understand what most tools on Voyant even do, we decided to take up bubble lines as our third tool. We wanted to pick a tool that could be a good representation of the class divide within our corpuses or corpora ( credits @ Elijah for introducing this term )
+After the never ending process of trying to understand what most tools on Voyant even do, we decided to take up bubble lines as our third tool. We wanted to pick a tool that could be a good representation of the class divide within our corpses or corpora ( credits @ Elijah for introducing this term )
 Bubble line shows the frequency of certain terms within each document of the corpus. the size of the bubbles represents the magnitude of the usage of a particular term or set of terms. For example, a bigger bubble in the beginning of the document represents a higher frequency of the usage of certain terms in the beginning of the document. Similarly, a smaller bubble at the end of the document shows a relatively lower frequency of usage of a term or set of terms.
 
 
