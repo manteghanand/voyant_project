@@ -5,6 +5,7 @@ output:
   html_document:
     df_print: paged
 ---
+![Ashoka University logo](https://www.ashoka.edu.in/admin_assets/global/images/logo/logo-ashoka.png)
 
 # Some Basic Info
 
@@ -14,7 +15,6 @@ Team Members: Eryn Wali, Anjali Sajith, Mantegh Anand
 Group Leader: Mantegh Anand
 
 
-![Ashoka University logo](https://www.ashoka.edu.in/admin_assets/global/images/logo/logo-ashoka.png)
 
 # Hypothesis:
 There exists a class difference in science fiction books wherein there is a higher frequency of usage of words relating to the upper-class as compared to the lower-class.
