@@ -81,7 +81,8 @@ This yet again is in favour of our hypothesis.
 
 # Bubble Lines (Third Tool)
 
-After the never ending process of trying to understand what most tools on Voyant even do, we decided to take up bubble lines as our third tool. We wanted to pick a tool that could be a good representation of the class divide within our corpses or corpora ( credits @ Elijah for introducing this term )
+After the never ending process of trying to understand what most tools on Voyant even do, we decided to take up bubble lines as our third tool. We wanted to pick a tool that could be a good representation of the class divide within our corpses or corpora (credits to @ Elijah_Samuels for introducing this term).
+
 Bubble line shows the frequency of certain terms within each document of the corpus. the size of the bubbles represents the magnitude of the usage of a particular term or set of terms. For example, a bigger bubble in the beginning of the document represents a higher frequency of the usage of certain terms in the beginning of the document. Similarly, a smaller bubble at the end of the document shows a relatively lower frequency of usage of a term or set of terms.
 
 
