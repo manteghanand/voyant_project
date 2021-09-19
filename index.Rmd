@@ -5,7 +5,7 @@ output:
   html_document:
     df_print: paged
 ---
-![Ashoka University logo](https://www.ashoka.edu.in/admin_assets/global/images/logo/logo-ashoka.png)
+![](https://www.ashoka.edu.in/admin_assets/global/images/logo/logo-ashoka.png)
 
 # Some Basic Info
 
@@ -24,7 +24,8 @@ There exists a class difference in science fiction books wherein there is a high
 
 The three of us are a combination of Computer Science and Economics majors. Naturally, we have no inclination towards English Literature. After discussing the novels we read we realized that, like the nerds we are, we only read science fiction and mystery novels. Therefore, it was quite easy for us to choose Sir Arthur Conan Doyle as our first author - we wanted to analyse the Sherlock Holmes series and compare it to other mystery/detective novels from the same time period and context. However, Gutenberg didn’t have a wide variety of books by other mystery/detective authors. 
 
-Thus, we did what we were taught to: improvise, adapt and overcome:
+Thus, we did what we were taught to do: 
+
 ![Bear Grills Meme](https://i.ytimg.com/vi/dqb-REjkugM/hqdefault.jpg)
 
 We chose to analyse Doyle’s sci-fi corpus with H. G. Wells’ corpus since they had the same genre, similar time, and of course, they were both British. We didn’t know where to go from there, so we did a little bit of research and looked at themes both authors covered in their books. An interesting one that we found was H. G. Well’s fascination with class. Our assumption was that since most of his books were based on a utopian society, we would mainly encounter the upper class - aristocratic, wealthy people living in mansions. So, we decided to compare the amount of times we came across upper class terms in both corpuses to check whether it was a recurring theme within science fiction novels. In order to further strengthen our analysis, we also decided to compare our results with Thomas Hardy’s and George Eliot’s corpuses (English authors from the same time period and non sci-fi writers) on Professor’s recommendation.
@@ -35,7 +36,7 @@ To do so, we split our corpuses into 2 sections - one with science fiction autho
 
 # Frequency Distribution (Trends Tool)
 
-The trends tool on Voyant is possibly one of the most useful tools on the site. By default it shows us the relative frequency of the occurance of the most common words within the corpus.
+The trends tool on Voyant is possibly one of the most useful tools on the site. By default it shows us the relative frequency of the occurrence of the most common words within the corpus. However, to contextualise our hypothesis, we decided to split our keywords into two categories; one with words relating to the upper-class and the other with words relating to the lower-class. We chose descriptive words for the upper-class such as king, bourgeoisie, wealthy, rich, noble, aristocratic, elite, well-off, blue-blood, imperial, posh, upmarket, exclusive, high society, privileged, gentry, mansion, etc. These included terms that describe the upper-class at face-value, and also include words that the lower-class would describe the upper-class as. Furthermore, we also added things that were exclusive to the upper-class such as the places they would live in. Similarly, we used terms such as village, poor, beggar, penniless, poverty, broke, destitute, bankrupt, empty-handed, needy and the n-word (Fun fact: Doyle was very racist in his books) to describe the lower-class.
 
 After adding in terms relating to our study, we find the following graph for the science fiction corpus :
 
@@ -89,13 +90,26 @@ The above is an excerpt of the science fiction corpus ie. the corpus consisting 
 
 The above image shows the data of the non science fiction texts ie. the texts of Thomas Hardy and George Eliot . Looking at the graph it is clear that except for some outliers (which specifically discussed themes of the royalty) the remaining documents in the corpus heavily rely on the consistent usage of the terms and themes surrounding the lower class as well as the upper class in a balanced manner.
 
-# Conclusion & Reflection:
+# Reflection:
 
-Okay so we did a whole buncha stuff and now we are here at the end of the project. 
+With full certainty, the three of us can say that Voyant was a really cool tool to work with, especially considering the fact that neither of us had any critical literary analysis skills. It provided us with a lot of details about our corpora and literature in general that we would have never received if we plainly read the books. On the other hand though, we do think that there are some bugs that require fixing and some tools that require more documentation. For example, we tried to use the StreamGraph tool. Even though it looked super interesting and we made a few basic inferences from it, we were not able to arrive at a plausible conclusion due to the lack of documentation on Voyant itself. 
 
-- 1)  Trends - From the frequency distribution graph we were able to conclude that there is infact a huge difference in the way social classes are represented in science fiction and non science fiction books. This supports our hypothesis that there exists a class difference in science fiction books since the relative term frequency for tht upper-class far exceeds that of the lower-class.
-- 2) Correlation and Collocates - The correlation tool did not really provide us with much to work with, so we are just going to sweep it under the rug and pretend it never happened. shush, it can be our little secret ;). The collocates tool however gave us a lot to work with and after making a handy excel sheet to note down the total occurrences of the collocates, we yet again, were able to support our hypothesis since there exists a far greater representation in terms of speech (using the word “said” ) for the upper-class as compared to the lower class in the science fiction corpus. The non science fiction corpus appears to be a far more equal space for both classes.
-- 3) Bubble lines - This tool proved to be another great way of visualizing the frequency of occurrence of certain terms within the documents within the corpus. Yet again we find a huge difference in the usage of the upper-class terms and the lower-class terms in the case of the science fiction corpus. The non science fiction corpus does not have that huge of a difference between the usage of terms pertaining to the classes (except for some clear outliers). With the third tool, we are once again able to support our hypothesis that science fiction has a great class divide.
+In terms of our research itself: 
+- Summary - We took vocabulary density and sentence length into account. Albeit sentence length is a good indicator of how accessible a corpus is to the general public, the vocabulary density highly depends upon the total number of words in the corpus - which makes it a lot less reliable than the other tools since there is a varying amount of text in each corpus. 
+- Frequency Distribution - We considered a lot of terms that could gauge the distribution of upper-class and lower-class mentions and received data that supported our hypothesis. However, we did not consider context since we could not read the books ourselves. 
+- Correlation and Colocates - Even though we did not receive any data from the correlation tool even though the significance of certain word correlations were high, this was quite a fascinating analytical tool to go through, as was the Colocation tool.
+- Bubble Lines - This provided us with a lot of insight on the frequency of terms within the book that helped us support our hypothesis. 
+
+# Conclusion
+
+Okay so we did a whole bunch of stuff and now we’re at the end of the project. Here’s what we thought of it: 
+
+- Trends - From the frequency distribution graph we were able to conclude that there is infact a huge difference in the way social classes are represented in science fiction and non science fiction books. This supports our hypothesis that there exists a class difference in science fiction books since the relative term frequency for tht upper-class far exceeds that of the lower-class.
+- Correlation and Collocates - The correlation tool did not really provide us with much to work with, so we are just going to sweep it under the rug and pretend it never happened. The collocates tool however gave us a lot to work with and after making a handy excel sheet to note down the total occurrences of the collocates, we yet again, were able to support our hypothesis since there exists a far greater representation in terms of speech (using the word “said”) for the upper-class as compared to the lower class in the science fiction corpus. The non science fiction corpus appears to be a far more equal space for both classes.
+- Bubble lines - This tool proved to be another great way of visualizing the frequency of occurrence of certain terms within the documents within the corpus. Yet again we find a huge difference in the usage of the upper-class terms and the lower-class terms in the case of the science fiction corpus. The non science fiction corpus does not have that huge of a difference between the usage of terms pertaining to the classes (except for some clear outliers). With the third tool, we are once again able to support our hypothesis that science fiction has a great class divide. 
+
+
+
 
 # The End
 
